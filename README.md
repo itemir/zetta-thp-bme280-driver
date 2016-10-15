@@ -20,7 +20,7 @@ $ mkdir bme280_test
 $ cd bme280_test
 $ npm init
 $ npm install zetta --save
-$ npm install https://github.com/itemir/zetta-thp-bme280-driver --save
+$ npm install zetta-thp-bme280-driver --save
 ```
 
 ### Usage
