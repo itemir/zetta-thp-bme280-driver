@@ -1,0 +1,30 @@
+{
+  "name": "zetta-thp-bme280-driver",
+  "version": "0.0.1",
+  "description": "Bosch BME280 sensor for temperature, humidity and pressure (THP) readings via I2C.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "zetta",
+    "temperature",
+    "humidity",
+    "pressure",
+    "BME280"
+  ],
+  "author": "Ilker Temir <ilker@ilkertemir.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itemir/zetta-thp-bme280-driver.git"
+  },
+  "bugs": {
+    "url": "https://github.com/itemir/zetta-thp-bme280-driver/issues"
+  },
+  "homepage": "https://github.com/zetta-thp-bme280-driver",
+  "dependencies": {
+    "node-bme280": "git+https://github.com/itemir/node-BME280.git",
+    "zetta-device": "^0.19.0"
+  }
+}
