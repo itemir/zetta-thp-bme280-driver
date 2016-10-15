@@ -1,6 +1,6 @@
 {
   "name": "zetta-thp-bme280-driver",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Bosch BME280 sensor for temperature, humidity and pressure (THP) readings via I2C.",
   "main": "index.js",
   "scripts": {
