@@ -28,7 +28,6 @@ var BME280 = require('node-bme280');
 
 var Sensor = module.exports = function(opts) {
   Device.call(this);
-  // Verify the address with `sudo i2cdetect -y 1`
   this.temperature = null;
   this.humidity = null;
   this.pressure = null;
