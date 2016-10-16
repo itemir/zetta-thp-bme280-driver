@@ -49,4 +49,4 @@ device.
 
 You can also use the [Zetta iOS app](https://itunes.apple.com/us/app/zetta-internet-of-things/id1087165552?mt=8)
 to connect to Zetta server to receive temperature, humidity and pressure 
-readings (use http://<ip_address>:1337 as the Server URL).
+readings (use http://&lt;ip_address&gt;:1337 as the Server URL).
