@@ -45,4 +45,8 @@ sudo node bme280.js
 You can now browse to http://browser.zettajs.io/#/overview?url=http://127.0.0.1:1337
 
 If you are not running this on localhost, change 127.0.0.1 to the IP address of the
-device.
+device. 
+
+You can also use the [Zetta iOS app](https://itunes.apple.com/us/app/zetta-internet-of-things/id1087165552?mt=8)
+to connect to Zetta server to receive temperature, humidity and pressure 
+readings (use http://<ip_address>:1337 as the Server URL).
