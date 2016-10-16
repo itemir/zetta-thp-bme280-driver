@@ -31,6 +31,7 @@ var zetta = require('zetta');
 var BME280 = require('zetta-thp-bme280-driver');
 
 zetta()
+  .name('LivingRoom')
   .use(BME280)
   .listen(1337)
 ```
