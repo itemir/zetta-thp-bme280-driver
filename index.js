@@ -29,12 +29,13 @@ var BME280 = require('node-bme280');
 var Sensor = module.exports = function(opts) {
   Device.call(this);
   // Verify the address with `sudo i2cdetect -y 1`
-  this.bme280 = new BME280({address: 0x76});
   this.temperature = null;
   this.humidity = null;
   this.pressure = null;
   this._opts = opts || {};
   this._timeOut = null;
+  this._address = this._opts['address'] || 0x76;
+  this.bme280 = new BME280({address: this._address});
 
   this.bme280.begin(function(err) {
     if (err) {
