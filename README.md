@@ -18,7 +18,7 @@ for installing one on a Raspberry Pi (and ignore the steps around Signal K).
 ```
 $ mkdir bme280_test
 $ cd bme280_test
-$ npm init
+$ npm init     # When asked, you can leave the fields empty
 $ npm install zetta --save
 $ npm install zetta-thp-bme280-driver --save
 ```
